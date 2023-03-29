@@ -1,0 +1,50 @@
+.weather-data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.search-container input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.filter-container {
+  margin-bottom: 1rem;
+}
+
+.filter-container label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.filter-container select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.list-container {
+  width: 50%;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.list-item {
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.list-item:hover {
+  background-color: #eee;
+}
